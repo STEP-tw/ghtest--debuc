@@ -1,0 +1,22 @@
+{
+  "name": "ghtest--debuc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/STEP-tw/ghtest--debuc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/STEP-tw/ghtest--debuc/issues"
+  },
+  "homepage": "https://github.com/STEP-tw/ghtest--debuc#readme",
+  "dependencies": {
+    "@octokit/rest": "^15.9.4"
+  }
+}
