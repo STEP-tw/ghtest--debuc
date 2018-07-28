@@ -1,0 +1,42 @@
+.progress {
+    display: none;
+}
+  
+.progress-bar {
+    width: 0;
+    animation: progress 3.5s ease-in-out forwards;
+}
+
+.input-group {
+    visibility: visible
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+h3 {
+    display: none;
+}
+
+.panel-heading {
+    padding: 0px;
+}
+
+@keyframes progress {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+}
+@keyframes show {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+  
